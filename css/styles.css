@@ -16,15 +16,16 @@ html, body {
     font-family: 'Open Sans', 'Helvetica', sans-serif;
     font-size: 300%;
     font-weight: bolder;
-    margin-top: 50px;
+    padding-top: 50px;
     margin-left: 150px;
 }
 
 .date {
-    color: #D3D3D3;
+    color:#E9E9E9;
     font-weight: bold;
     font-family: 'Open Sans', 'Helvetica', sans-serif;
     font-size: 100%;
+    margin-left: 150px;
 }
     
     
