@@ -1,1 +1,10 @@
 
+.header {
+    background-image: linear-gradient(rgb(0, 242, 96), rgb(33, 144, 255));
+}
+
+.title {
+    color: white;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
+    font-size: 150%;
+}
