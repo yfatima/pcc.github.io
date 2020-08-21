@@ -280,29 +280,6 @@ body{
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
 
-.facebook {
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
-}
-
-.linkedin {
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
-}
-
-.swe {
-    width: 50px;
-    height: 30px;
-    border-radius: 2px;
-}
-
-.swe-logo {
-    width: 60px !important;
-    height: 35px !important;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
