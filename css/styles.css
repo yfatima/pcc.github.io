@@ -84,7 +84,7 @@ html, body {
 
 .answer {
     text-align: center;
-    color: black;
+    color: #646464;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 150%;
     padding: 30px;
@@ -161,7 +161,8 @@ body{
   padding: 11px 13px;
 }
 .calendar_events{
-  color:$light_grey;
+    color:$light_grey;
+    margin-bottom: -35px;
 }
 .ce_title{
   font-size:14px;
@@ -178,7 +179,7 @@ body{
       background-color: #fff;
     }
     .ei_Copy,.ei_Title{
-      color:#fff;
+	color:#fff;
     }
   }
 }
@@ -186,22 +187,14 @@ body{
 .ei_Dot,.ei_Title{
   display:inline-block;
 }
-
-.ei_Dot{
-  border-radius:50%;
-  width:10px;
-  height: 10px;
-  background-color: $light_grey;
-  box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
-}
-
 .ei_Title{
+  font-size:20px;
   margin-left:10px;
   color: #93acdb;
 }
 
 .ei_Copy{
-  font-size:12px;
+  font-size:20px;
   margin-left:27px;
 }
 
@@ -329,7 +322,7 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: #646464;
 }
 
 button:hover, a:hover {
@@ -343,4 +336,48 @@ button:hover, a:hover {
     //border-radius: 15px;
    //margin-top: 50px;
 }
-    
+
+
+.faq_itm{
+	padding: 5px;
+	margin: 5px;
+	background:  #93acdb;
+	box-shadow: 1px 1px 0px white;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.faq_itm:hover{
+	
+	background: white;	
+	box-shadow: 1px 1px 0px #93acdb;
+	border: 1px solid  #93acdb;
+
+}
+
+.faq_itm>a{
+	color: white;
+	font-size: 3rem;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.faq_itm:hover>a{
+	color: #93acdb;
+	text-decoration: none;
+}
+
+.faq_itm>ul{
+	color: white;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: 0 10px;
+}
+
+.faq_itm:hover>ul{
+	color: #93acdb;
+}
+
+.faq_row {
+    width: 96%;
+  list-style: none;
+}
