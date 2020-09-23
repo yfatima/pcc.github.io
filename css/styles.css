@@ -242,22 +242,6 @@ body{
   transition: ease .25s;
 }
 
-.footer-distributed p.footer-links a {
-  display: inline-block;
-  line-height: 1.8;
-  text-decoration: none;
-  color: inherit;
-  transition: ease .25s;
-}
-
-.footer-distributed .footer-links a:before {
-  content: "·";
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
 
 .footer-distributed .footer-links .link-1:before {
   content: none;
@@ -286,6 +270,34 @@ body{
 .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
 
 .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/*Footer text styles */
+
+.code {
+    margin-left: 30%;
+    font-size: 25px;
+}
+
+.contact {
+    font-size: 25px;
+    margin-left: 4%;
+}
+
+.pccemail {
+    color: #A39D9E;
+    font-size: 15px;
+}
+
+.codeinfo {
+    color: #A39D9E;
+    font-size: 15px;
+    margin-left: 8%;
+}
+
+.codedoc {
+    color: #93acdb;
+    font-size: 15px;
+}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -381,3 +393,5 @@ button:hover, a:hover {
     width: 96%;
   list-style: none;
 }
+
+
