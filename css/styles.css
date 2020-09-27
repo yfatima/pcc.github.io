@@ -49,16 +49,18 @@ html, body {
     margin-left: 500px;
 }
 
-.mason {
-    width: 160px;
-    height: 50px;
-    //margin-left: -15px;
+.idia {
+    width: 170px;
+    height: 70px;
+    margin-left: -20px;
+    margin-top: -10px;
 }
 
 .swelogo {
     width: 60px;
     height: 60px;
-    margin-left: -18px;
+    margin-left: -12px;
+    
 }
 
 .vl {
@@ -211,6 +213,12 @@ body{
     display: inline-block;
     margin: 40px auto;
     padding: 3px;
+}
+
+.container2 {
+    width: 100% !important;
+    text-align: center;
+    margin-top: 50px;
 }
 
 
