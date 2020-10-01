@@ -38,6 +38,34 @@ html, body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 50%;
 }
+@import '//fonts.googleapis.com/css?family=Bangers';
+
+.countdown {
+   
+    width: 50%;
+    height: 150px;
+    font-family:Bangers;
+    font-size: 300%;
+    text-align: center;
+    background-color: #93acdb;
+    border-radius: 15px;
+    margin-left: 28%;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.clock {
+    font-weight: bolder;
+    color: white;
+}
+
+.clocktext {
+  text-align:center;
+  font-family:Bangers;
+  color:  #e9e9e9;
+  font-size:35px;
+  letter-spacing:2px;
+}
 
 .divider-line {
     margin: 0px;
