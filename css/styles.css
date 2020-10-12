@@ -4,6 +4,11 @@ html, body {
   margin: 0;
 }
 
+.mainbackground {
+    background-image:url("../images/cloudbg5.png");
+    background-repeat: round;
+}
+
 .header {
     //background-color:#363b41; 
     width: 100%;
@@ -65,7 +70,7 @@ html, body {
 
 .subtitle {
     font-size: 100%;
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 .where {
@@ -121,7 +126,7 @@ html, body {
     font-family:Bangers;
     font-size: 300%;
     text-align: center;
-    background-color: #93acdb;
+    background-color: #3871bf;
     border-radius: 15px;
     margin-left: 28%;
     padding-top: 20px;
@@ -179,7 +184,7 @@ html, body {
 }
 
 .question {
-    color:#93acdb;
+    color:  #3872bf;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: bolder;
     margin: 10px;
@@ -203,9 +208,9 @@ html, body {
 .container {
     width: 70% !important;
     text-align: center;
-    background-color: #d7eaf9;
-    border-radius: 15px;
-    margin-top: 50px;
+    /*background-color: #d7eaf9;
+    border-radius: 15px;*/
+    //margin-top: 50px;
 }
 
 $off_white:#fafafa;
@@ -294,7 +299,7 @@ body{
 .ei_Title{
   font-size:20px;
   margin-left:10px;
-  color: #93acdb;
+  color: #b7dffd;
 }
 
 .ei_Copy{
@@ -404,20 +409,16 @@ body{
     margin-left: 8%;
 }
 
-.codedoc {
-    color: #93acdb;
-    font-size: 15px;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   //margin: auto;
   text-align: center;
   float: left;
+  background-color: #d9d9d9;
   //height: 470px;
-  //width: 23%;
-  padding: 0 10px;
+  //width: 30%;
+  padding: 10px 10px;
 }
 
 .title {
@@ -463,7 +464,7 @@ button:hover, a:hover {
 .faq_itm{
 	padding: 5px;
 	margin: 5px;
-	background:  #93acdb;
+	background:  #3872bf;
 	box-shadow: 1px 1px 0px white;
 	border: 1px solid white;
 	border-radius: 5px;
@@ -472,8 +473,8 @@ button:hover, a:hover {
 .faq_itm:hover{
 	
 	background: white;	
-	box-shadow: 1px 1px 0px #93acdb;
-	border: 1px solid  #93acdb;
+	box-shadow: 1px 1px 0px  #3872bf;
+	border: 1px solid  #3872bf;
 
 }
 
@@ -484,7 +485,7 @@ button:hover, a:hover {
 }
 
 .faq_itm:hover>a{
-	color: #93acdb;
+	color: #3872bf;
 	text-decoration: none;
 }
 
@@ -496,7 +497,7 @@ button:hover, a:hover {
 }
 
 .faq_itm:hover>ul{
-	color: #93acdb;
+	color: #3872bf;
 }
 
 .faq_row {
