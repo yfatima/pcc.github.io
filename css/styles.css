@@ -58,6 +58,19 @@ html, body {
     //margin-right: -50%;
 }
 
+.maintitle2 {
+    color: #b7dffd;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+    //margin-left: 150px;
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    right: 12.6%;
+    //margin-right: -50%;
+}
+
 .date {
     color: #05347E;
     //font-weight: bold;
@@ -233,7 +246,7 @@ body{
   background-color: #fff;
 }
 .dark{
-  margin-left: 65px;
+  margin-left: 30px;
 }
 
 .calendar{
