@@ -159,6 +159,13 @@ html, body {
   letter-spacing:2px;
 }
 
+.countdown {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:#E9E9E9;
+    background-color: #93acdb;
+    border-radius: 15px;
+    text-align: center;
+}
 .divider-line {
     margin: 0px;
 }
@@ -236,11 +243,6 @@ body{
   background-color: $off_white;
 }
 
-.container{
-    margin: 30px auto;
-    padding-bottom: 50px;
-    width:809px;
-}
 
 .light{
   background-color: #fff;
