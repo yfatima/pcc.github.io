@@ -141,7 +141,7 @@ html, body {
     text-align: center;
     background-color: #3871bf;
     border-radius: 15px;
-    margin-left: 28%;
+    margin-left: 27%;
     padding-top: 20px;
     margin-bottom: 40px;
 }
@@ -165,6 +165,7 @@ html, body {
     background-color: #93acdb;
     border-radius: 15px;
     text-align: center;
+    margin-top: 100px;
 }
 .divider-line {
     margin: 0px;
@@ -248,7 +249,7 @@ body{
   background-color: #fff;
 }
 .dark{
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .calendar{
@@ -335,12 +336,51 @@ body{
     display: inline-block;
     margin: 40px auto;
     padding: 3px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .container2 {
     width: 100% !important;
     text-align: center;
     margin-top: 50px;
+}
+
+.micro {
+    margin-right: 500px !important;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin-left: 200px;
+  margin-right: 0px;
+}
+
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  margin-left: 250px;
+  margin-right: 0px;
+}
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  margin-left: 350px;
+  margin-right: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    width: 70%;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
@@ -472,7 +512,7 @@ button:hover, a:hover {
     text-align: center;
     //background-color: #d7eaf9;
     //border-radius: 15px;
-   //margin-top: 50px;
+   margin-top: 200px;
 }
 
 
@@ -520,4 +560,11 @@ button:hover, a:hover {
   list-style: none;
 }
 
+.FAQ {
+    margin-top: 200px;
+}
+
+.codedoc {
+    font-size: medium;
+}
 
