@@ -344,32 +344,41 @@ body{
     width: 100% !important;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.idia2 {
+    margin-bottom: 100px;
 }
 
 .micro {
-    margin-right: 500px !important;
+    max-width: 80%;
 }
 
-.column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-  margin-left: 200px;
-  margin-right: 0px;
+.aws {
+    max-width: 80%;
+}
+
+.ng {
+    max-width: 80%;
+}
+
+.ntt {
+    max-width: 90%;
 }
 
 .column1 {
   float: left;
-  width: 20%;
+  width: 25%;
   padding: 5px;
-  margin-left: 250px;
+  margin-left: 270px;
   margin-right: 0px;
 }
 
 
 .column2 {
   float: left;
-  width: 50%;
+  //width: 25%;
   padding: 5px;
   margin-left: 350px;
   margin-right: 0px;
@@ -381,6 +390,7 @@ body{
   content: "";
   clear: both;
   display: table;
+  margin-bottom: 30px;
 }
 
 
