@@ -352,11 +352,11 @@ body{
 }
 
 .micro {
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .aws {
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .ng {
@@ -365,6 +365,10 @@ body{
 
 .ntt {
     max-width: 90%;
+}
+
+.redbox {
+    max-width: 60%;
 }
 
 .column1 {
