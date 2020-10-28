@@ -371,6 +371,18 @@ body{
     max-width: 60%;
 }
 
+.salesforce {
+    max-width: 70%;
+}
+
+.brandee {
+    max-width: 40%;
+}
+
+.pragy {
+    max-width: 40%;
+}
+
 .column1 {
   float: left;
   width: 25%;
@@ -382,10 +394,10 @@ body{
 
 .column2 {
   float: left;
-  //width: 25%;
+  width: 50%;
   padding: 5px;
-  margin-left: 350px;
-  margin-right: 0px;
+  margin-left: 580px;
+  //margin-right: 0px;
 }
 
 /* Clear floats after image containers */
